@@ -1,0 +1,17 @@
+{
+  "name": "A Quality Life Community",
+  "version": "0.0.1",
+  "description": "yoga for cancer survivors and their caregivers",
+  "dependencies": {
+    "bootstrap": "~3",
+    "angular": "~1.2",
+    "angular-resource": "~1.2",
+    "angular-mocks": "~1.2",
+    "angular-bootstrap": "~0.11.0",
+    "angular-ui-utils": "~0.1.1",
+    "angular-ui-router": "~0.2.10",
+    "textAngular": "~1.2.2",
+    "font-awesome": "~4.1.0",
+    "rangy": "~1.2.3"
+  }
+}
