@@ -3,6 +3,43 @@
         <h1>Teachers</h1>
     </div>
     <div class="list-group">
+        <dl class="dl-horizontal">
+            <dt><img src="/modules/teachers/img/marybethhall.jpg" class="img-responsive"></dt>
+
+        <dd>
+        <H3>Ms. Mary Beth Hall</H3>
+        Mary Beth Hall originally tried yoga as a natural way to ease back pain after having children.  Not only did she find relief with her back issues, she also experienced major stress relief and found a sense of peace she hadn't felt in a very long time.  She decided to teach yoga as a way to "pass it forward".  Mary Beth is a nurturing teacher encouraging her students to stay focused on breathing to unlock energy blocks and to connect mind, body and spirit.  Mary Beth received her 500 hour Yoga Certification at Infusion Studio, where she teaches cancer patients on Friday mornings.
+        </dd>
+            <dt><img src="/modules/teachers/img/chrislemon.jpg" class="img-responsive"></dt>
+            <dd>
+                <div>
+                    <h3>Chris Lemon</h3>
+                    <div>
+                        What I love most about yoga: Yoga is medicine to me. I feel better when I practice yoga, both physically and emotionally.
+
+                        Where I've studied: I found yoga in 2006 after having a run-in with cancer. Yoga helped heal my body, while easing the strain on my heart. The way yoga helped me through a difficult time made me want to help others in need get the same benefits. In 2011, I received my 200 and 500 hour yoga certificates from InBody Yoga Academy.
+
+                        Why I teach yoga: I have been fortunate enough to be able to bring yoga to cancer survivors for the last several years. I love teaching this population. All of my classes are light-hearted, playful, and challenging. You can usually plan on some arm balances, inversions, and a restorative cool-down (and maybe a head-rub with some lavender oil). Oh, and we're going to laugh a lot too.
+                    </div>
+                </div>
+            </dd>
+            <dt><img src="/modules/teachers/img/erinmeyer.jpg" class="img-responsive"></dt>
+            <dd>
+                <div>
+                    <H3>Dr. Erin Meyer</H3>
+                    <div>
+                    Dr. Meyer has been practicing yoga since 1982 and teaching yoga since 2006.  She is a PhD in pharmacology and a research scientist at the University of Utah.  Erin is a certified eYRT (experienced registered yoga teacher) with more than 2000 hours of teaching.  Erin believes that yoga is for everyone!
+                    </div>
+                </div>
+            </dd>
+            <dt><img src="/modules/teachers/img/billheld.png" class="img-responsive"></dt>
+            <dd>
+            <h3>William Held</h3>
+            <div>
+            I started my Yoga journey a little later in life than most. What I needed was to find  a new purpose in my life and a sense of  peace and well being.  During the last 5 years, because of my Yoga practice, I have grown physically stronger, mentally clearer and calmer while renewing my spiritual beliefs.   Yoga has allowed me to look inward to myself to find the peace I had lost.  I  received my 200 hours teacher's training certificate at We Are Yoga in 2013.  I've had the privilege of teaching cancer patients and caregivers yoga at Huntsman Cancer Hospital.  I teach at Upstairs Yoga, the VA Hospital while subbing for classes at A Quality Life Community.  Currently,  I'm focused on cultivating my mind body practice at  Salt Lake City Fit Collective while I continue to share my passion and experience of Ariel Yoga with others.
+            </div>
+            </dd>
+        </dl>
         <a data-ng-repeat="teacher in teachers" data-ng-href="#!/teachers/{{teacher._id}}" class="list-group-item">
 			<small class="list-group-item-text">
 				Posted on
@@ -13,7 +50,5 @@
 			<h4 class="list-group-item-heading" data-ng-bind="teacher.name"></h4>
         </a>
     </div>
-    <div class="alert alert-warning text-center" data-ng-hide="!teachers.$resolved || teachers.length">
-    	No Teachers yet, why don't you <a href="/#!/teachers/create">create one</a>?
-    </div>
+
 </section>

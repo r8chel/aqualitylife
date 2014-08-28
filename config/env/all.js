@@ -15,7 +15,9 @@ module.exports = {
 			css: [
 				'public/lib/bootstrap/dist/css/bootstrap.css',
 				'public/lib/bootstrap/dist/css/bootstrap-theme.css',
-                'public/lib/font-awesome/css/font-awesome.css'
+                'public/lib/font-awesome/css/font-awesome.css',
+                'public/lib/angular-carousel/dist/angular-carousel.css'
+
 			],
 			js: [
 				'public/lib/angular/angular.js',
@@ -26,7 +28,9 @@ module.exports = {
                 'public/lib/rangy/rangy-core.js',
                 'public/lib/textAngular/src/textAngular-sanitize.js',
                 'public/lib/textAngular/src/textAngularSetup.js',
-                'public/lib/textAngular/src/textAngular.js'
+                'public/lib/textAngular/src/textAngular.js',
+                'public/lib/angular-carousel/src/angular-carousel.js',
+                'public/lib/angular-touch/angular-touch.js'
 			]
 		},
 		css: [

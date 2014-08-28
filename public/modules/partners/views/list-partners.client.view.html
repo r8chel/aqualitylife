@@ -3,17 +3,47 @@
         <h1>Partners</h1>
     </div>
     <div class="list-group">
-        <a data-ng-repeat="partner in partners" data-ng-href="#!/partners/{{partner._id}}" class="list-group-item">
-			<small class="list-group-item-text">
-				Posted on
-				<span data-ng-bind="partner.created | date:'medium'"></span>
-				by
-				<span data-ng-bind="partner.user.displayName"></span>
-			</small>
-			<h4 class="list-group-item-heading" data-ng-bind="partner.name"></h4>
-        </a>
+        <dl class="dl-horizontal">
+            <dt><a href="http://huntsmancancer.org" target="_blank"><img src="/modules/partners/img/HuntsmanCancerInstituteLogo.png" class="img-responsive"></a></dt>
+                <dd>
+                <h4>Huntsman Cancer Institute</h4>
+                2000 Circle of Hope, University of Utah Campus, Salt Lake City, UT
+                Mondays @ 5:30 p.m. Yoga class for cancer survivors, caregivers & family members
+                </dd>
+            <dt><a href="http://bodyinfusion.com" target="_blank"><img src="/modules/partners/img/infusionyoga.jpg" class="img-responsive"> </a> </dt>
+                <dd>
+                <h4>Infusion Yoga & Pilates Studio</h4>
+                1025 S 500 W, Bountiful, UT
+                Fridays at 10:45 a.m. Yoga class for cancer survivors, caregivers & family members
+                please register on-line <a href="http://www.bodyinfusion.com.">HERE</a>  For information email  askinfusion@gmail.com , or call 801-294-5999
+                </dd>
+            <dt><a href="http://lakeviewhospital.com" target="_blank"><img src="/modules/partners/img/lakeview.png" class="img-responsive"></a> </dt>
+                <dd>
+                <h4>Lakeview Hospital</h4>
+                630 E Medical Drive, Bountiful, UT
+                Every fourth Thursday, 7:00 p.m.; Breast Cancer Support Group at the Women's Center
+                Teresa.Abney@hcahealthcare.com
+                </dd>
+            <dt><a href="http://www.utahcancer.com" target="_blank"><img src="/modules/partners/img/logo_utah-cancer-specialists.png" class="img-responsive"></a></dt>
+                <dd><h4>Utah Cancer Specialists</h4>
+                3900 South 700 East, Salt Lake City, UT
+                Wednesdays @ 6:30 p.m.; Yoga class for cancer survivors, caregivers and family members, for information call 801-330-3732.
+                </dd>
+            <dt><a href="http://www.mindfulyogacollective.com/" target="_blank">Mindful Yoga Collective</a> </dt>
+                <dd><h4>Mindful Yoga Collective</h4>
+                223 South 700 East, Suite 4
+                (East side of 700 E)
+                Salt Lake City, UT
+                <p>QLC in partnership with the Lupus Foundation of America and Mindful Yoga Collective present FREE weekly yoga classes for cancer survivors, lupus patients and the people who love and support them.</p>
+                <p>Sensitive to the needs of each student, this class focuses on restorative yoga with emphasis on alignment, heart-opening postures and meditative practices.</p>
+                <img src="/modules/partners/img/LupusUtahLogo.png" class="pull-right img-responsive">
+                </dd>
+            <dt><a href="http://denicedruce.com" target="_blank"><img src="/modules/partners/img/image.jpg" class="img-responsive"></a></dt>
+               <dd><h4>Denice Druce & The University of Utah</h4>
+                Denice provides student teachers from the University of Utah to teach some A Quality Life Community classes
+                <img src="/modules/partners/img/Ulogo_100px.png" class="pull-right img-responsive">
+               </dd>
+        </dl>
     </div>
-    <div class="alert alert-warning text-center" data-ng-hide="!partners.$resolved || partners.length">
-    	No Partners yet, why don't you <a href="/#!/partners/create">create one</a>?
-    </div>
+
 </section>

@@ -1,5 +1,5 @@
 .content {
-	margin-top: 100px;
+	margin-top: 130px;
 }
 .undecorated-link:hover {
 	text-decoration: none;
@@ -8,6 +8,28 @@
 	display: none !important;
 }
 
-.my-class {
-    font-size: 10px;
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    height: 115px !important;
+    background: #ffffff;
+    background-repeat: repeat-x;
+}
+.container {
+    width: 90% ;
+}
+
+.dl-horizontal dt {
+    float: left;
+    width: 200px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.dl-horizontal dd {
+    margin-left: 220px;
+}
+.col-md-4 {
+    padding-right: 3em;
+
 }
