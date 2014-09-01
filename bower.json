@@ -12,7 +12,8 @@
     "angular-ui-router": "~0.2.10",
     "textAngular": "~1.2.2",
     "font-awesome": "~4.1.0",
-    "rangy": "~1.2.3"
+    "rangy": "~1.2.3",
+    "angular-carousel": "~0.2.5"
   },
   "resolutions": {
     "angular": "~1.2.x"

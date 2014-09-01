@@ -5,7 +5,11 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 	function($scope, Authentication) {
 		// This provides Authentication context.
 		$scope.authentication = Authentication;
+
 	}
 ]);
 
-angular.module('core', ['angular-carousel']);
+$('.carousel').carousel({
+    interval: 2000,
+    wrap: false
+});
