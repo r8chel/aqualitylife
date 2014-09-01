@@ -13,8 +13,5 @@
     "textAngular": "~1.2.2",
     "font-awesome": "~4.1.0",
     "rangy": "~1.2.3"
-  },
-  "resolutions": {
-    "angular": "~1.2.x"
   }
 }
