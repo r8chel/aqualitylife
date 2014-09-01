@@ -1,20 +1,52 @@
 <section data-ng-controller="HomeController">
-        <div class="row">
-            <div class="col-md-12">
-                <ul rn-carousel class="image">
-                    <li><img src="/modules/core/img/photos/Wolf Creek Ranch retreat.jpg"></li>
-                    <li>slide #2</li>
-                    <li>slide #3</li>
-                </ul>
+
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="/modules/core/img/photos/Wolf-Creek-Ranch-retreat.jpg" class="img-responsive" alt="Wolf Creek Ranch Retreat">
+                <div class="carousel-caption">
+                    ...
+                </div>
             </div>
+            <div class="item">
+                <img src="/modules/core/img/photos/Kasia.jpg" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            <div class="item">
+                <img src="/modules/core/img/photos/rooftop-yoga2.jpg" class="img-responsive" alt="...">
+                <div class="carousel-caption">
+                    ...
+                </div>
+            </div>
+            ...
         </div>
-		<div class="row">
+
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    	<div class="row">
             <h2 class="lead center-block">Yoga Classes and Retreats for Cancer Survivors and Their Loved Ones</h2>
             <p class="">
                 A Quality Life Community (AQLC) offers a wellness program for cancer patients, caregivers and loved ones.
                 AQLC provides free series of yoga , meditation classes, recovery retreats, as well as the newest insights
                 on proper medical care, alternative care, nutrition and other innovative therapies.
-           </p>
+            </p>
             <p>
                 AQLC is unique in that it is designed to support not just the individual, but is inclusive for the entire
                 family's self-healing. AQLC is also dedicated to teaching yoga and meditation teachers how to teach this powerful work.

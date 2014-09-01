@@ -30,7 +30,8 @@ module.exports = {
                 'public/lib/textAngular/src/textAngularSetup.js',
                 'public/lib/textAngular/src/textAngular.js',
                 'public/lib/angular-carousel/src/angular-carousel.js',
-                'public/lib/angular-touch/angular-touch.js'
+                'public/lib/angular-touch/angular-touch.js',
+                'public/lib/jquery/dist/jquery.js'
 			]
 		},
 		css: [
